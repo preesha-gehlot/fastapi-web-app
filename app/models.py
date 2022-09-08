@@ -1,5 +1,3 @@
-from email.policy import default
-from tkinter.tix import COLUMN
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 from .database import Base
 from sqlalchemy.sql.sqltypes import TIMESTAMP
