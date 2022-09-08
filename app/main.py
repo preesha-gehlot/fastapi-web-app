@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 #command that builds all the tables for us, however alembic already does this for us
 # through its revisions. 
-models.Base.metadata.create_all(bind=engine)
+#models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
