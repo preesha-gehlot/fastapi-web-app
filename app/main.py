@@ -23,7 +23,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"message" : "Welcome to Preesha's api!!!"}
+    return {"message" : "Welcome to Preesha's api!!! SUCCESSFULLY deployed from CI CD pipeline"}
 
 
 app.include_router(post.router)
